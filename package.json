@@ -1,23 +1,28 @@
 {
-  "name": "server",
+  "name": "stripe-backedn",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js",
-    "server": "node index.js",
-    "build": "react-scripts build",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "nodemon --watch index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/codesyogesh67/clothing-store-stripe.git"
   },
   "author": "",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/codesyogesh67/clothing-store-stripe/issues"
+  },
+  "homepage": "https://github.com/codesyogesh67/clothing-store-stripe#readme",
   "dependencies": {
-    "@stripe/react-stripe-js": "^1.7.0",
-    "@stripe/stripe-js": "^1.23.0",
-    "body-parser": "^1.19.1",
+    "babel-node": "^0.0.1-security",
+    "body-parser": "^1.20.0",
     "cors": "^2.8.5",
-    "dotenv": "^16.0.0",
-    "express": "^4.17.3",
-    "stripe": "^8.203.0"
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "nodemon": "^2.0.19",
+    "stripe": "^9.12.0"
   }
 }
